@@ -1,0 +1,24 @@
+.carousel{
+    display: flex;
+    
+}
+ .prev_next_button{
+    outline: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    background:none;
+ }
+ 
+ .prev_button , .next_button {
+    filter: invert(100%);
+    width:3.4rem;
+    height: 3.4rem;
+ }
+
+ @media (max-width:786px) {
+   .carousel{
+      display: none;
+   }
+ }
+ 

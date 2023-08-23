@@ -1,0 +1,134 @@
+ * {
+     color: #fff;
+     font-family: 'Josefin Sans', sans-serif;
+     font-family: 'Kumbh Sans', sans-serif;
+ }
+
+ .navbar {
+     position: fixed;
+     top: 0%;
+     padding: 20px;
+     width: 100%;
+     height: 30px;
+     z-index: 1;
+     overflow: hidden;
+
+     /*----Animation------*/
+     transition-timing-function: ease-in;
+     transition: all 0.5s;
+ }
+
+ .nav_color {
+     background-color: #111;
+ }
+
+ .nav_content {
+     display: flex;
+     cursor: pointer;
+     justify-content: space-between;
+     margin: 12px 100px;
+ }
+
+ .dh_logo {
+     position: relative;
+ }
+
+ .nav_logo img {
+     top: 10px;
+     position: fixed;
+     left: 0;
+     height: 35px;
+     width: 60px;
+     padding: 10px;
+     padding-left: 110px;
+     z-index: 1;
+ }
+
+ .nav_logo_name h1 {
+     top: 2px;
+     position: fixed;
+     padding-left: 60px;
+     font-weight: 500;
+     font-size: 32px;
+ }
+
+ .menu_links {
+     margin-left: 20px;
+     text-decoration: none;
+     font-size: 18px;
+     font-weight: 300;
+     padding-top: 30px;
+ }
+
+ .ham_navbar {
+     display: none;
+     height: 340px;
+ }
+
+ .hamburger {
+     display: none;
+     position: relative;
+ }
+
+ @media (max-width:768px) {
+    .navbar{
+        height: 12rem;
+    }
+     .nav_content {
+        /* height:123vh ; */
+         justify-content: space-between;
+         width: 60%;
+     }
+
+     .dh_menu {
+         display: none;
+     }
+
+     .hamburger {
+         display: block;
+         border: none;
+         background: none;
+         filter: invert(1);
+     }
+
+     .hamburger .ham_img {
+         width: 20px;
+         height: 20px;
+     }
+
+    
+
+     .ham_nav{
+        position: absolute;
+        left: 77vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+     }
+     .abc{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+     }
+     .banner_contact_info{
+        display: none;
+     }
+
+     .menu_links_ham{
+        text-decoration: none;
+        margin: 10px 2px;
+
+     }
+     .nav_color{
+        background:none;
+     }
+     .nav_logo img{
+            padding-left: 45px;
+     }
+     .nav_logo_name h1{
+        padding-left: 0px;
+        font-size: 28px;
+     }
+
+      
+ }

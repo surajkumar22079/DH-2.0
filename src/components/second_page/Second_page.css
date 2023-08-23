@@ -1,0 +1,510 @@
+
+.second_page {
+    padding: 1rem 1.4rem;
+    width: 100%;
+}
+
+.back_to_search {
+    display: flex;
+    justify-content: left;
+}
+
+.back_to_search p {
+
+    word-wrap: normal;
+    color: #124866;
+    margin: 0;
+    padding: 0;
+}
+
+.prop_details {
+    display: flex;
+}
+
+
+.prop_images {
+    width: 55%;
+    display: flex;
+    margin: 1.2rem;
+}
+
+.images_div {
+    border-radius: 0.5rem;
+    padding: 0 0.4rem;
+    height: 4rem;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.images_videos_prop {
+    width: 5.4rem;
+    background-image: url(../../Images/ghar_white.jpg);
+    background-size: contain;
+    height: 4rem;
+    margin: 0.3rem 0.3rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.like_icon {
+    position: relative;
+}
+
+.full_view_image {
+    width: 90%;
+    display: flex;
+}
+
+.full_view_image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.prop_specifications * {
+    margin: 0;
+    color: black;
+}
+
+.prop_specifications {
+    width: 45%;
+    margin: 1.2rem;
+}
+
+.upper {
+    display: flex;
+}
+
+.blocks_second_page .block {
+    margin: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+}
+
+.blocks_second_page .block .sub_block {
+    display: flex;
+}
+
+.discount {
+    display: flex;
+
+}
+
+.discount p {
+    color: #124764;
+    font-size: 10px;
+}
+
+.discount img {
+    width: 7%;
+    height: 64%;
+}
+
+.upper .left {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.upper .left h1 {
+    font-size: 27px;
+}
+
+.upper .left h2 {
+    font-size: 18px;
+    color: #124866;
+    margin: 0.5rem 0;
+    font-weight: 500;
+}
+
+.upper .left a {
+    color: #124764;
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.upper .left h3 {
+    margin: 1.4rem 2rem 0.4rem 0;
+    color: white;
+    padding: 0.3rem 2.2rem;
+    background-color: #072B60;
+    font-weight: 300;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.upper .right {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.upper .right h2 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.upper .right h3 {
+    margin: 4px 0;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+.blocks_second_page {
+    display: flex;
+    padding: 0 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block p {
+    font-size: 12px;
+}
+
+.block .sub_block p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.lower {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.lower .lower_blocks {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.lower p {
+    font-size: 14px;
+    margin: 10px 0;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.Enquire_Brochure {
+    display: flex;
+}
+
+.Enquire {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #072B60;
+    padding: 3px 1.7rem;
+    border-radius: 10px;
+
+}
+
+.Enquire p {
+    margin: 5px 12px;
+    color: white;
+    font-size: 17px;
+}
+
+.Brochure {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.14);
+    border-radius: 8px;
+    margin: 0rem 2rem;
+    padding: 0 0.5rem;
+}
+
+.Brochure p {
+    width: 130%;
+    color: #114765;
+
+}
+
+.Brochure img {
+    width: 16%;
+    height: 34%;
+    margin: 0 12px;
+}
+
+.layout_and_floor_plan {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.layout_and_floor_plan .floor_plan {
+    width: 45%;
+    margin: 0.8rem;
+    border-radius: 4px;
+}
+
+.layout_and_map {
+    display: flex;
+    background: #FAFAFA;
+    box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.08);
+    border-radius: 0px 16px 20px 0px;
+}
+
+.images_layout {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 2rem;
+}
+
+.consult_map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.images_layout h2 {
+    color: black;
+}
+
+.images_layout button,
+.map button {
+    margin: auto;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background-color: #072B60;
+    width: 6rem;
+    padding: 0.4rem;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.consult {
+    width: 63%;
+    border-radius: 8px;
+    background-color: #072B60;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.consult h3 {
+    margin: 0.8rem 0;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.consult_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.consult_block p {
+    font-size: 15px;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.map img {
+    width: 63%;
+    margin: 1rem 0;
+}
+
+.other_specifications {
+    display: flex;
+    padding: 13px;
+    height: 155px;
+    background: #FAFAFA;
+    box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.08);
+    border-radius: 0px 16px 20px 0px;
+}
+
+.other_specifications h2 {
+    color: black;
+    font-size: 23px;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+.add_on_services h3 {
+    color: #336CA3;
+    font-weight: 300;
+    margin: 0;
+}
+
+.add_on_services_blocks {
+    margin: 0 9rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.similar_properties h3 {
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    margin: 2rem;
+    font-size: 24px;
+}
+
+.similar_properties_div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.option_primary_secondary {
+    display: none;
+    flex-direction: row;
+
+}
+
+.option_primary_secondary button {
+    color: black;
+    padding: 6px;
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media (min-width:786px) {
+    .android_similar_prop {
+        display: none;
+    }
+}
+
+@media (max-width:786px) {
+    .back_to_search {
+        display: none;
+    }
+
+    .images_videos_prop_div {
+        display: none;
+    }
+
+    .prop_details {
+        flex-direction: column;
+        top: 0;
+    }
+
+    .prop_images {
+        padding: 0;
+        margin: 0;
+    }
+
+    .full_view_image {
+        width: 100%;
+    }
+
+    .prop_specifications {
+        width: 100%;
+    }
+
+    .prop_specifications .upper {
+        flex-direction: column;
+    }
+
+    .upper .left a {
+        display: none;
+    }
+
+    .discount {
+        display: none;
+    }
+
+    .block .sub_block p {
+        font-size: 12px;
+    }
+
+    .upper .left h1 {
+        font-size: 21px;
+
+    }
+
+    .upper .left h2 {
+        font-size: 16px;
+
+    }
+
+    .option_primary_secondary {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Enquire,
+    .Brochure {
+        height: 38px;
+    }
+
+    .layout_and_map {
+        flex-direction: column;
+    }
+
+    .other_specifications {
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+
+    .add_on_services_blocks {
+        flex-wrap: wrap;
+    }
+
+    .add_on_services_blocks {
+        margin: 0;
+    }
+
+    .android_similar_prop {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .android_nav {
+        padding: 6px;
+        width: 67vh;
+    }
+
+    .full_view_image img {
+        max-width: 200%;
+    }
+
+    .similar_properties {
+        display: flex;
+        flex-direction: column;
+        margin: 7rem 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .consult {
+        width: 100%;
+        background-color: white;
+    }
+    .map img{
+        width: 100%;
+    }
+    .consult *{
+        color: black;
+        background-color: white;
+    }
+}

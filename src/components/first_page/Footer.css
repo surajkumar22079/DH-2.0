@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+.footer{
+    background-image: url('../../Images/banner2.jpg');
+    
+    background-size: cover;
+}
+
+.footer *{
+    font-family: 'inter', sans-serif;
+}
+
+.DH_logo{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.DH_logo img{
+    width: 14%;
+    height: 40%;
+}
+.footer h1{
+    font-size: 2.3rem;
+}
+
+.about_blogs{
+    display: flex;
+    flex-direction: column;
+}
+
+.about_blogs a{
+    text-decoration: none;
+}
+
+/* .footer_top div{
+    text-align: left;
+    margin: 2rem;
+} */
+
+.footer_top{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 2.3rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.footerl1,.footerl2 , .footerl3{
+    text-align: left;
+    margin: 1.4rem;
+}
+.footerl1{
+    width: 30%;
+}
+.footerl1 p{
+    margin-top: 0 ;
+    font-weight: 300;
+    font-size: 1.1rem;
+    
+}
+
+.footerl1 a{
+    margin: 0.5rem 0;
+    font-size: 1.3rem;
+}
+
+.footerl2{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerl2 a{
+    text-decoration: none;
+    margin: 0.4rem 0;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+.footer_email_phone{
+    margin: 0.3rem 0;
+}
+
+.footer_email_phone a{
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+.footer_socialmedia_icons{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 2.7rem;
+    margin:  0.4rem 0;
+}
+
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 11rem;
+    background-color: rgba(0, 0, 0, 0.7);
+}   
+.footer_bottom h4{
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+@media (max-width:786px) {
+   .footer_top{
+    flex-direction: column;
+
+   } 
+   .DH_logo{
+    flex-direction: column;
+   }
+
+   .footerl1{
+    width: 100%;
+   }
+   .DH_logo h1{
+    font-size: 24px;
+    margin: 0;
+   }
+   .footerl1 p{
+    font-size: 12px;
+   }
+   .about_blogs{
+    flex-direction: row;
+    justify-content: space-between;
+   }
+
+   .about_blogs a{
+    font-size: 14px;
+   }
+   .footerl2{display: none;}
+
+   .footerl3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .footerl3 h1{
+    font-size: 23px;
+    margin: 0;
+   }
+   .footer_email_phone a{
+    font-size: 16px;
+   }
+
+   .footer_bottom{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+   }
+   .footer_bottom h4{
+    font-size: 13px !important;
+    margin: 4px;
+   }
+}
